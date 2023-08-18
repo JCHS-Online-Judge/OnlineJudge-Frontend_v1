@@ -23,17 +23,15 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "tailwindcss": "^3.3.3",
-    "http-proxy-middleware": "^2.0.6",
     "ws": "^8.13.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^3.0.1"
-  },
-  "proxy" : "http://localhost:80"
+  }
 }
