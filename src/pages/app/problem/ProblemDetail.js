@@ -54,7 +54,7 @@ int main() {
   const formatTime = (time) => `${time / 1000}초`;
 
   const formatMemory = (memory) =>
-    `${(memory / 1024).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}MB`;
+    `${memory.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}MB`;
 
   const handleLanguageChange = (event) => {
     setLanguage(event.target.value);
